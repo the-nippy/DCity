@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\RN\\app_projects\\MinePro\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\RN\\app_projects\\MinePro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\RN\\app_projects\\MinePro\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icon_splash.png",
+        "source": "D:\\RN\\app_projects\\MinePro\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon_splash.png"
+    }
+]
