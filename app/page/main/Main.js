@@ -175,7 +175,7 @@ export default class Main extends Component {
     _clickPosition() {
         let {navigate} = this.props.navigation;
         //跳转时将函数传递过去
-        jumpPage(navigate, "Position", {position: '青岛', fresh: this.togglePosition})
+        jumpPage(navigate, "Position", {position: this.state.currentCityName, fresh: this.togglePosition})
     }
 
     _clickDate(date) {

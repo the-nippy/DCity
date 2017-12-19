@@ -34,6 +34,7 @@ const jumpPage = (navigate, target, params) => {
     }
 }
 
+//封装的弹出吐司的方法
 const toastShow = (data) => {
     "use strict";
     if (data != null && data != '') {
@@ -80,8 +81,23 @@ let getLongitudeAndLatitude = () => {
 
     })
 
-
 }
 
 
-export {WIDTH, HEIGHT, jumpPage, ds, toastShow, getLongitudeAndLatitude};
+//从城市列表数组（子元素为城市json对象）中根据城市名获取城市对象
+let getCityByName = (cityArr, targetCityName) => {
+
+    if (cityArr.length == 0 || cityArr == null ||
+            targetCityName == "" || targetCityName == null) {
+        return;
+    }
+    for (let i = 0; i < cityArr.length; i++) {
+        if (cityArr[i].name == targetCityName) {
+            return cityArr[i];
+        }
+    }
+    return {};
+}
+
+
+export {WIDTH, HEIGHT, jumpPage, ds, toastShow, getLongitudeAndLatitude,getCityByName};

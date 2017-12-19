@@ -27,7 +27,7 @@ import TouchView from '../../widget/TouchView';
 import HttpManager from '../../data/http/HttpManager';
 import {saveLoca, insertNowCity} from '../../data/storage/RealmManager';
 import {setAsyncData, getAsyncData} from '../../data/storage/LocalStorage';
-import {WIDTH, HEIGHT} from '../../utils/util';
+import {WIDTH, HEIGHT, getCityByName} from '../../utils/util';
 
 const MainColor = '#dc5039';
 
@@ -54,6 +54,7 @@ export default class Position extends Component {
             showMore: false,
         };
         this.getData();
+
     }
 
     //组件加载完成时就获取经纬度信息
@@ -61,18 +62,57 @@ export default class Position extends Component {
         this.getNetPosition();
     }
 
+
     getNetPosition() {
 
         httpManager.getCityLocation()
             .then((data) => {
-                Alert.alert("位置？", "" + JSON.stringify(data));
-                ToastAndroid.show("" + JSON.stringify(data), ToastAndroid.SHORT);
+                // Alert.alert("位置？", "" + JSON.stringify(data));
+
+                this._confirmCity(data);
+
             })
             .catch((error) => {
-                Alert.alert("Position Error", "" + error);
+                ToastAndroid.show("失败" + JSON.stringify(error), ToastAndroid.SHORT);
             });
     }
 
+    //弹出定位框
+    _confirmCity(data) {
+        let address = data.result.addressComponent;
+
+        let {params} = this.props.navigation.state;
+        let localCityName = params.position;
+
+        if (localCityName + "市" != address.city) {
+
+            Alert.alert("城市定位", "\n当前城市为" + address.province + address.city + "\n \n 是否设为当前城市？\n",
+                [
+                    {
+                        text: "设为当前城市", onPress: () => {
+                            this.setCurrentCity(address.city)
+                        }
+                    },
+                    {text: "取消"}
+                ]
+            )
+        }
+    }
+
+    //百度地图的城市名为 "**市"   豆瓣解析的不带"市"
+    setCurrentCity(cityName) {
+
+        // cityName.splice(cityName.length - 2, 1);
+        let arr = cityName.split("市");
+        let city = getCityByName(this.state.cities.locs, arr[0]);
+
+        if (city != null && city != {}) {
+            this.setState({
+                currentCity: city
+            })
+        }
+
+    }
 
     getData() {
 
@@ -115,7 +155,6 @@ export default class Position extends Component {
 
         this.setState({currentCity: city});
 
-        this.getNetPosition()
     }
 
     _getItemLayout(data, index) {

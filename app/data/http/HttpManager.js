@@ -25,6 +25,8 @@ const UserEvents_URL = '/event';
 //需要加上mcode码，申请的应用的安全码
 const BaiduMap_URL = "https://api.map.baidu.com/geocoder/v2/?ak=j3ENU9p7L1IHGeyu8ZsCOwGIoj7FeYH0&output=json&mcode=08:B0:A2:48:DC:AE:36:2A:EE:C4:8F:C6:DD:91:F4:8C:04:C3:BA:2C;com.minepro&location="
 
+// const TencentMap_URL="https://apis.map.qq.com/ws/geocoder/v1/?key=DXMBZ-E6KWP-EC3D5-VYHF5-5FBX6-42BUX&location=";
+
 // http://api.map.baidu.com/geocoder/v2/?ak=8fWAUoCNY4NCIt9rvZu3FGSF52kXLc9e&location=30.206526,120.209158&output=json
 
 export default class HttpManager {
@@ -163,23 +165,23 @@ export default class HttpManager {
             //获取经纬度的方法返回的是经纬度组成的数组
                 .then((locationArr) => {
 
-                    // Alert.alert("", "" + locationArr[1]);
+                      // Alert.alert("", "" + locationArr[1]);
                     let longitude = locationArr[0];
                     let latitude = locationArr[1];
 
-                    this.getNetData(BaiduMap_URL + longitude + "," + latitude)
+                    this.getNetData(BaiduMap_URL + latitude + "," + longitude)
                         .then((data) => {
                             if (data.status == 0) {
                                 resolve(data);
                             } else {
-                                reject(data);
+                                reject(ErrorDeal.getError(data.code));
                             }
-                        }).catch((error) => {
-                        reject(error);
+                        }).catch((data) => {
+                        reject(ErrorDeal.getError(data.code));
                     })
 
-                }).catch((error) => {
-                reject(error);
+                }).catch((data) => {
+                reject(ErrorDeal.getError(data.code));
             })
 
         })
