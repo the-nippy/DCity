@@ -3,7 +3,7 @@
 
 React Native Application
 
-### 使用豆瓣开源API，通过 React Native 写的豆瓣同城项目。
+#### 使用豆瓣开源API，通过 React Native 写的豆瓣同城项目。
 
 <hr>
 <br>
