@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-spinkit/android" />
             <option value="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android" />
             <option value="$PROJECT_DIR$/../node_modules/realm/android" />
           </set>

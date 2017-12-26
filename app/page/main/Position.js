@@ -68,7 +68,6 @@ export default class Position extends Component {
         httpManager.getCityLocation()
             .then((data) => {
                 // Alert.alert("位置？", "" + JSON.stringify(data));
-
                 this._confirmCity(data);
 
             })

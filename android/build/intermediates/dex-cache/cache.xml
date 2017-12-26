@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_6c5748f72066605f16e7a4c61535f96e2871072d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\AS_SDK4.2\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -39,78 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_5d1959191c9a1045cf8f2482c932eb1822d2fb89.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_26bcc2081cf0e577730876e9e1f827130ccb8fb5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_c0366796cc7c451e1b61b21e95817e2583865eea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-linear-gradient\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\MinePro-react-native-linear-gradient-unspecified_d4c7f25d512a905ad5492c1f5c2555e365ea9faa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_8c2342925937dd136251903a7f30c28d2a6da34b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.49.3_54be3b32099f9886ca6037f74fa0d1a5c35afe3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_b5fe1f2f0a6b282e841d9c23a62295ea591bc255.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_6c5748f72066605f16e7a4c61535f96e2871072d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,12 +57,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.github.ybq\Android-SpinKit\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="21c0f1b0de29bfe601028757c5cb125c343f5164">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.github.ybq-Android-SpinKit-1.1.0_876062662e7ebc5d16c20b3c87054c825638f541.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\org.nanohttpd\nanohttpd\2.2.0\73a02117620b6cc7683a1ed6ae24c2f36e2a715\nanohttpd-2.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
         <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\nanohttpd-2.2.0_7b4339919e9c125936d391a279560921a21580e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-spinkit\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="47b99616af6817e323d7b404b2f1922ca22228ad">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\MinePro-react-native-spinkit-unspecified_4d39afe053ff9a923f682998662927a8afcde5ea.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,6 +138,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_5d1959191c9a1045cf8f2482c932eb1822d2fb89.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -201,6 +165,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_26bcc2081cf0e577730876e9e1f827130ccb8fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_c0366796cc7c451e1b61b21e95817e2583865eea.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
@@ -210,12 +192,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-linear-gradient\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\MinePro-react-native-linear-gradient-unspecified_d4c7f25d512a905ad5492c1f5c2555e365ea9faa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_8c2342925937dd136251903a7f30c28d2a6da34b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_e2f27fb16bb941a0cd153c37f88f3cbe833df974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.49.3_54be3b32099f9886ca6037f74fa0d1a5c35afe3f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -243,6 +252,15 @@
         revision="23.0.1"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_12fe859302755edd0eb4558f76782ecfd6c9f2b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\RN\app_projects\MinePro\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_b5fe1f2f0a6b282e841d9c23a62295ea591bc255.jar" />
     </item>
 
 </items>

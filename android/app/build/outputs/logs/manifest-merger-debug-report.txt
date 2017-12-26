@@ -30,6 +30,8 @@ ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:1
 		ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:10:22-76
 uses-sdk
 ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:12:5-14:44
+MERGED from [MinePro:react-native-spinkit:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-spinkit\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.github.ybq\Android-SpinKit\1.1.0\AndroidManifest.xml:6:5-8:41
 MERGED from [MinePro:react-native-splash-screen:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [MinePro:react-native-linear-gradient:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-linear-gradient\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [MinePro:realm:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\realm\unspecified\AndroidManifest.xml:5:5-7:41
@@ -58,6 +60,7 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] D:\RN\app_projects\MinePro\an
 		INJECTED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:16:5-33:19
+MERGED from [MinePro:react-native-spinkit:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-spinkit\unspecified\AndroidManifest.xml:11:5-14:19
 MERGED from [MinePro:react-native-splash-screen:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\AndroidManifest.xml:11:5-15:19
 MERGED from [MinePro:realm:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\realm\unspecified\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.49.3] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\AndroidManifest.xml:13:5-20
@@ -70,7 +73,7 @@ MERGED from [org.webkit:android-jsc:r174650] D:\RN\app_projects\MinePro\android\
 	android:label
 		ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:19:13-45
 	android:supportsRtl
-		ADDED from [MinePro:react-native-splash-screen:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\AndroidManifest.xml:14:9-35
+		ADDED from [MinePro:react-native-spinkit:unspecified] D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-spinkit\unspecified\AndroidManifest.xml:13:9-35
 	android:allowBackup
 		ADDED from D:\RN\app_projects\MinePro\android\app\src\main\AndroidManifest.xml:18:13-39
 	android:icon
