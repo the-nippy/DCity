@@ -7,6 +7,7 @@ React Native Application
 
 <hr>
 <br>
+
 ### 功能：
 
  - 获取同城活动，根据指定类型，时间和地点获取。
@@ -15,6 +16,7 @@ React Native Application
  - 查看活动详情，活动发起人以及与该发起人相关的所有活动。
 
 <br>
+
 ### 第三方库：
  
  - **realm**： 实现本地存储。
@@ -24,7 +26,9 @@ React Native Application
  - **react-native-root-toast**：  优化弹出框Toast。
  
 <br>
+
 ### 效果图：
+
 <br>
 <div>
 <img src="./README_Image/we.jpg" height=360 />
