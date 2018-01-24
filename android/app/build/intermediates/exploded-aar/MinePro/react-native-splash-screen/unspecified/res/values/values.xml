@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="primary_dark" type="color">
-        @color/primary_dark
+        #e1e1e1
     </item>
     <item name="launch_screen" type="layout">
         @layout/launch_screen

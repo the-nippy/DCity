@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="react-native-linear-gradient-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/MinePro/react-native-linear-gradient/unspecified/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/MinePro/react-native-linear-gradient/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1472,7 +1472,7 @@
     </style><style name="Theme.FullScreenDialogAnimatedFade" parent="Theme.FullScreenDialog">
     <item name="android:windowAnimationStyle">@style/DialogAnimationFade</item>
   </style><style name="Theme"/></file><file name="preferences" path="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\res\xml\preferences.xml" qualifiers="" type="xml"/></source></dataSet><dataSet config="unspecified" from-dependency="true" generated-set="unspecified$Generated"><source path="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\realm\unspecified\res"/></dataSet><dataSet config="unspecified" from-dependency="true" generated-set="unspecified$Generated"><source path="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-linear-gradient\unspecified\res"/></dataSet><dataSet config="unspecified" from-dependency="true" generated-set="unspecified$Generated"><source path="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\res"><file path="D:\RN\app_projects\MinePro\android\app\build\intermediates\exploded-aar\MinePro\react-native-splash-screen\unspecified\res\values\values.xml" qualifiers=""><item name="primary_dark" type="color">
-        @color/primary_dark
+        #e1e1e1
     </item><style name="SplashScreen_Fullscreen" parent="SplashScreen_SplashTheme">
         <item name="android:windowFullscreen">true</item>
     </style><item name="launch_screen" type="layout">
