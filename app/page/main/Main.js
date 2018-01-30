@@ -13,13 +13,16 @@ import {
     Alert,
     FlatList,
     ScrollView,
+    Animated,
+    Easing,
     ActivityIndicator,
-}from 'react-native';
-import  TouchView from '../../widget/TouchView';
+} from 'react-native';
+import TouchView from '../../widget/TouchView';
 import HoriText from '../../widget/HoriText';
 import Swiper from 'react-native-swiper';
 import LinearGradient from 'react-native-linear-gradient';
 import SplashScreen from 'react-native-splash-screen';
+import Spinner from 'react-native-spinkit';
 
 const WHITE = '#FFFFFF';
 import {WIDTH, HEIGHT, jumpPage, ds, toastShow} from '../../utils/util';
@@ -83,6 +86,9 @@ export default class Main extends Component {
             eventsForList: [],
         };
 
+        //初始化动画
+        this.ItemAnimation = new Animated.Value(0);
+
         //先执行一次数据库查询  有本地事件数据就不需要网络获取
         //  if(getLocalEvents()){
         //      this.freshData(false);
@@ -93,9 +99,22 @@ export default class Main extends Component {
     }
 
     componentDidMount() {
+
+        //隐藏闪屏页
         setTimeout(() => {
             SplashScreen.hide()
         }, 100)
+
+        //动画渐变配置
+        Animated.timing(
+            this.ItemAnimation,
+            {
+                toValue: 1,
+                delay: 300,
+                easing: Easing.ease,
+                useNativeDriver: true,
+            }
+        ).start();
     }
 
 
@@ -147,6 +166,18 @@ export default class Main extends Component {
         //this.togglePosition();
 
         this.getData(this.state.currentCityId, this.state.date, this.props.eventType, 0, event_COUNT, needNet);
+
+        //动画渐变配置
+        Animated.timing(
+            this.ItemAnimation,
+            {
+                toValue: 1,
+                delay: 300,
+                easing: Easing.ease,
+                useNativeDriver: true,
+            }
+        ).start();
+
     }
 
     togglePosition = () => {
@@ -158,7 +189,7 @@ export default class Main extends Component {
                 eventObject: '',
                 currentCityName: arr[0],
                 currentCityId: arr[1],
-                loadingState:'loading'
+                loadingState: 'loading'
             });
             //ToastAndroid.show("name" + arr[0] + "Id" + arr[1], ToastAndroid.SHORT);
         }
@@ -258,17 +289,29 @@ export default class Main extends Component {
     //渲染event
     _renderEvent(item) {
         return (
-            <TouchView
-                onPress={() => {
-                    this._clickEvent(item)
+            <Animated.View
+                style={{
+                    flex: 1,
+                    opacity: this.ItemAnimation,
+                    transform: [
+                        {
+                            scaleY: this.ItemAnimation
+                        }
+                    ]
                 }}
-                style={styles.item}
             >
-                <View style={styles.item}>
-                    <Image source={{uri: item.image}} style={styles.item_image}/>
-                    <Text style={styles.item_text_title} numberOfLines={2}>{item.title}</Text>
-                </View>
-            </TouchView>
+                <TouchView
+                    onPress={() => {
+                        this._clickEvent(item)
+                    }}
+                    style={styles.item}
+                >
+                    <View style={styles.item}>
+                        <Image source={{uri: item.image}} style={styles.item_image}/>
+                        <Text style={styles.item_text_title} numberOfLines={2}>{item.title}</Text>
+                    </View>
+                </TouchView>
+            </Animated.View>
 
         );
     }
@@ -300,11 +343,16 @@ export default class Main extends Component {
             );
         } else {
             return (
-                <View>
-                    <ActivityIndicator
-                        animating={true}
-                        color={MainColor}
-                        size='large'/>
+                <View style={styles.loading_spinner}>
+                    {/*<ActivityIndicator*/}
+                    {/*animating={true}*/}
+                    {/*color={MainColor}*/}
+                    {/*size='large'/>*/}
+                    <Spinner
+                        isVisible={true}
+                        size={50}
+                        type='WanderingCubes'
+                        color={MainColor}/>
                     <Text style={[styles.loading_text, {color: MainColor}]}>loading</Text>
                 </View>
             );
@@ -626,8 +674,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     loading_text: {
-        fontSize: 18,
-        marginTop: 10
+        fontSize: 22,
+        marginTop: 30
     },
     loading_fail: {
         width: 100,
@@ -636,7 +684,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 8,
-    }
+    },
+
+    loading_spinner: {
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
 
 
 })

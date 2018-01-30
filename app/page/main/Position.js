@@ -27,7 +27,7 @@ import TouchView from '../../widget/TouchView';
 import HttpManager from '../../data/http/HttpManager';
 import {saveLoca, insertNowCity} from '../../data/storage/RealmManager';
 import {setAsyncData, getAsyncData} from '../../data/storage/LocalStorage';
-import {WIDTH, HEIGHT, getCityByName} from '../../utils/util';
+import {WIDTH, HEIGHT, getCityByName,toastShow} from '../../utils/util';
 
 const MainColor = '#dc5039';
 
@@ -72,7 +72,8 @@ export default class Position extends Component {
 
             })
             .catch((error) => {
-                ToastAndroid.show("失败" + JSON.stringify(error), ToastAndroid.SHORT);
+                // ToastAndroid.show("失败" + JSON.stringify(error), ToastAndroid.SHORT);
+                toastShow("获取当前位置失败");
             });
     }
 
