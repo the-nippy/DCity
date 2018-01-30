@@ -46,8 +46,9 @@ React Native Application
 
 ### 待优化：
 
- - 未适配 iOS
- - 可集成更多功能
+ - 未适配 iOS。
+ - 城市定位仅可用于大中城市。
+ - 可集成更多功能。
 
 <br>
 
