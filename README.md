@@ -24,6 +24,7 @@ React Native Application
  - **react-native-linear-gradient**： 实现背景色彩渐变。
  - **react-native-splash-screen**： 优化启动白屏的问题。
  - **react-native-root-toast**：  优化弹出框Toast。
+ - **react-native-spinkit**： 优化加载 loading 动画样式。
  
 <br>
 
@@ -45,5 +46,13 @@ React Native Application
 
 ### 待优化：
 
- - 部分代码未匹配 iOS
- - 集成更多功能
+ - 未适配 iOS
+ - 可集成更多功能
+
+<br>
+### 下载安装：
+<a href="https://fir.im/7k3v"> DCity 下载安装</a>
+
+
+
+
